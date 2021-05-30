@@ -1,0 +1,105 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/alarme/simulation/qsim
+Ealarme
+Z1 w1612036597
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 CX9c^[CNfbzHb3XCH3hoa1
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 NZ_cKj>1HW_D7i1UeTO[31
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 6`GHcm:DR>=X_840X1FV;0
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 dbC[kT^o8P[ggjb1if:RT1
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 DPx6 altera 28 altera_primitives_components 0 22 PoC3B_7fao?IDTS[NR5Q62
+Z11 dC:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/primeiro semestre/Lab Dig/P2/alarme/simulation/qsim
+Z12 8alarme.vho
+Z13 Falarme.vho
+l0
+L39
+V8H_Ek>j83<K6DJh;NR5N02
+!s100 `<4>V2oOHV[bHaBXP;`VF3
+Z14 OV;C;10.5b;63
+32
+Z15 !s110 1612036600
+!i10b 1
+Z16 !s108 1612036599.000000
+Z17 !s90 -work|work|alarme.vho|
+Z18 !s107 alarme.vho|
+!i113 1
+Z19 o-work work
+Z20 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 6 alarme 0 22 8H_Ek>j83<K6DJh;NR5N02
+l178
+L59
+VH0eoC0PokPdM]Sc[>JXM?2
+!s100 K]_4;i=bzzlcVHoP4G@Vk3
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R19
+R20
+Ealarme_vhd_vec_tst
+w1612036594
+R8
+R9
+R11
+8Waveform.vwf.vht
+FWaveform.vwf.vht
+l0
+L32
+V21]e?DG;kDOGgoXB2KZjk0
+!s100 PbgAS3>[_M^`70NSVV:E=0
+R14
+32
+R15
+!i10b 1
+!s108 1612036600.000000
+!s90 -work|work|Waveform.vwf.vht|
+!s107 Waveform.vwf.vht|
+!i113 1
+R19
+R20
+valarme_vlg_vec_tst
+!s110 1595546706
+!i10b 1
+!s100 mMm7cPf3n=f:Uh0lzZKTI2
+In2j:P9m6M<lk]6Rz=jKcI1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1595546701
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1595546706.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R19
+tCvgOpt 0

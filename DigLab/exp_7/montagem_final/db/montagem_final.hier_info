@@ -1,0 +1,128 @@
+|montagem_final
+VdA <= logica_combinatoria:inst.VdA
+reset => logica_combinatoria:inst1.reset
+noturno => logica_combinatoria:inst1.noturno
+PvA => logica_combinatoria:inst1.PvA
+PvB => logica_combinatoria:inst1.PvB
+AmA <= logica_combinatoria:inst.AmA
+VmA <= logica_combinatoria:inst.VmA
+VdB <= logica_combinatoria:inst.VdB
+AmB <= logica_combinatoria:inst.AmB
+VmB <= logica_combinatoria:inst.VmB
+
+
+|montagem_final|logica_combinatoria:inst
+Q2 => SYNTHESIZED_WIRE_0.IN0
+Q2 => SYNTHESIZED_WIRE_3.IN0
+Q2 => SYNTHESIZED_WIRE_2.IN0
+Q2 => VdA.IN1
+Q2 => trigger_1s.IN0
+Q2 => SYNTHESIZED_WIRE_10.IN0
+Q2 => VdB.IN1
+Q2 => trigger_5s.IN0
+Q2 => SYNTHESIZED_WIRE_5.IN0
+Q1 => SYNTHESIZED_WIRE_0.IN1
+Q1 => SYNTHESIZED_WIRE_3.IN1
+Q1 => SYNTHESIZED_WIRE_2.IN1
+Q1 => SYNTHESIZED_WIRE_5.IN1
+Q1 => VdA.IN0
+Q1 => VmA.IN1
+Q1 => AmA.IN0
+Q1 => VdB.IN0
+Q1 => trigger_1s.IN1
+Q0 => AmB.IN1
+Q0 => trigger_5s.IN1
+Q0 => VdA.IN1
+Q0 => AmA.IN1
+Q0 => SYNTHESIZED_WIRE_10.IN1
+Q0 => VdB.IN1
+Q0 => trigger_1min.IN1
+Q0 => SYNTHESIZED_WIRE_2.IN1
+VdA <= VdA.DB_MAX_OUTPUT_PORT_TYPE
+AmA <= AmA.DB_MAX_OUTPUT_PORT_TYPE
+VmA <= VmA.DB_MAX_OUTPUT_PORT_TYPE
+VdB <= VdB.DB_MAX_OUTPUT_PORT_TYPE
+AmB <= AmB.DB_MAX_OUTPUT_PORT_TYPE
+VmB <= VmB.DB_MAX_OUTPUT_PORT_TYPE
+trigger_1s <= trigger_1s.DB_MAX_OUTPUT_PORT_TYPE
+trigger_5s <= trigger_5s.DB_MAX_OUTPUT_PORT_TYPE
+trigger_1min <= trigger_1min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|montagem_final|logica_combinatoria:inst1
+Q2 => SYNTHESIZED_WIRE_0.IN0
+Q2 => SYNTHESIZED_WIRE_3.IN0
+Q2 => SYNTHESIZED_WIRE_2.IN0
+Q2 => VdA.IN1
+Q2 => trigger_1s.IN0
+Q2 => SYNTHESIZED_WIRE_10.IN0
+Q2 => VdB.IN1
+Q2 => trigger_5s.IN0
+Q2 => SYNTHESIZED_WIRE_5.IN0
+Q1 => SYNTHESIZED_WIRE_0.IN1
+Q1 => SYNTHESIZED_WIRE_3.IN1
+Q1 => SYNTHESIZED_WIRE_2.IN1
+Q1 => SYNTHESIZED_WIRE_5.IN1
+Q1 => VdA.IN0
+Q1 => VmA.IN1
+Q1 => AmA.IN0
+Q1 => VdB.IN0
+Q1 => trigger_1s.IN1
+Q0 => AmB.IN1
+Q0 => trigger_5s.IN1
+Q0 => VdA.IN1
+Q0 => AmA.IN1
+Q0 => SYNTHESIZED_WIRE_10.IN1
+Q0 => VdB.IN1
+Q0 => trigger_1min.IN1
+Q0 => SYNTHESIZED_WIRE_2.IN1
+VdA <= VdA.DB_MAX_OUTPUT_PORT_TYPE
+AmA <= AmA.DB_MAX_OUTPUT_PORT_TYPE
+VmA <= VmA.DB_MAX_OUTPUT_PORT_TYPE
+VdB <= VdB.DB_MAX_OUTPUT_PORT_TYPE
+AmB <= AmB.DB_MAX_OUTPUT_PORT_TYPE
+VmB <= VmB.DB_MAX_OUTPUT_PORT_TYPE
+trigger_1s <= trigger_1s.DB_MAX_OUTPUT_PORT_TYPE
+trigger_5s <= trigger_5s.DB_MAX_OUTPUT_PORT_TYPE
+trigger_1min <= trigger_1min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|montagem_final|temporizador:inst2
+clock => flag.CLK
+clock => conta3[0].CLK
+clock => conta3[1].CLK
+clock => conta3[2].CLK
+clock => conta3[3].CLK
+clock => conta3[4].CLK
+clock => conta3[5].CLK
+clock => conta2[0].CLK
+clock => conta2[1].CLK
+clock => conta2[2].CLK
+clock => conta1[0].CLK
+clock => conta1[1].CLK
+clock => conta1[2].CLK
+clock => conta1[3].CLK
+clock => conta1[4].CLK
+clock => conta1[5].CLK
+zera => flag.ACLR
+zera => conta3[0].ACLR
+zera => conta3[1].ACLR
+zera => conta3[2].ACLR
+zera => conta3[3].ACLR
+zera => conta3[4].ACLR
+zera => conta3[5].ACLR
+zera => conta2[0].ACLR
+zera => conta2[1].ACLR
+zera => conta2[2].ACLR
+zera => conta1[0].ACLR
+zera => conta1[1].ACLR
+zera => conta1[2].ACLR
+zera => conta1[3].ACLR
+zera => conta1[4].ACLR
+zera => conta1[5].ACLR
+trigger_1s => flag.OUTPUTSELECT
+trigger_5s => flag.OUTPUTSELECT
+trigger_1min => flag.OUTPUTSELECT
+saida <= flag.DB_MAX_OUTPUT_PORT_TYPE
+
+

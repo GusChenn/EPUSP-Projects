@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pronto",
+					"strict" : false
+				},
+				{
+					"name" : "zera1",
+					"strict" : false
+				},
+				{
+					"name" : "conta1",
+					"strict" : false
+				},
+				{
+					"name" : "conta2",
+					"strict" : false
+				},
+				{
+					"name" : "carrega2",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[0]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[1]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[2]",
+					"strict" : false
+				},
+				{
+					"name" : "fim",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "iniciar",
+					"strict" : false
+				},
+				{
+					"name" : "condicao1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

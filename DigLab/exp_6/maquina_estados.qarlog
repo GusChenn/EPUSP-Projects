@@ -1,0 +1,18 @@
+Quartus Prime Archive log --	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/maquina_estados.qarlog
+
+Archive:	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/maquina_estados.qar
+Date:		Sun Apr 26 23:14:15 2020
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/Waveform.vwf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/maquina_estados.qpf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/maquina_estados.qsf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/maquina_estados.vhd
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/montagem1.bdf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/simulation/modelsim/tb.vhd
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

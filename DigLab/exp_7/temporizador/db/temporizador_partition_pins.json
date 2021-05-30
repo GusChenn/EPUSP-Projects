@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "saida",
+					"strict" : false
+				},
+				{
+					"name" : "trigger_1min",
+					"strict" : false
+				},
+				{
+					"name" : "trigger_1s",
+					"strict" : false
+				},
+				{
+					"name" : "trigger_5s",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "zera",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

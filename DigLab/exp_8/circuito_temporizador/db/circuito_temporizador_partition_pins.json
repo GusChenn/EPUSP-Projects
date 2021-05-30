@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out_segundo",
+					"strict" : false
+				},
+				{
+					"name" : "out_minuto",
+					"strict" : false
+				},
+				{
+					"name" : "out_hora",
+					"strict" : false
+				},
+				{
+					"name" : "out_12horas",
+					"strict" : false
+				},
+				{
+					"name" : "lampada",
+					"strict" : false
+				},
+				{
+					"name" : "Desliga",
+					"strict" : false
+				},
+				{
+					"name" : "Liga",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

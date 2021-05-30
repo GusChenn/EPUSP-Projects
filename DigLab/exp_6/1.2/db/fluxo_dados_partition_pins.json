@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "fim1",
+					"strict" : false
+				},
+				{
+					"name" : "condicao1",
+					"strict" : false
+				},
+				{
+					"name" : "saida[0]",
+					"strict" : false
+				},
+				{
+					"name" : "saida[1]",
+					"strict" : false
+				},
+				{
+					"name" : "saida[2]",
+					"strict" : false
+				},
+				{
+					"name" : "saida[3]",
+					"strict" : false
+				},
+				{
+					"name" : "db_fim2",
+					"strict" : false
+				},
+				{
+					"name" : "db_contagem1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "db_contagem1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "db_contagem1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "db_contagem1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "conta1",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "zera1",
+					"strict" : false
+				},
+				{
+					"name" : "carrega2",
+					"strict" : false
+				},
+				{
+					"name" : "conta2",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

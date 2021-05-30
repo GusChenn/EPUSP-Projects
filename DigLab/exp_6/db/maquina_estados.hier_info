@@ -1,0 +1,19 @@
+|maquina_estados
+clock => Eatual~1.DATAIN
+reset => Eatual~3.DATAIN
+iniciar => Eprox.zeraconts.DATAB
+iniciar => Selector0.IN2
+condicao1 => Eprox.contacont2.DATAB
+condicao1 => Selector2.IN2
+fim => Eprox.final.DATAB
+fim => Selector1.IN2
+pronto << pronto.DB_MAX_OUTPUT_PORT_TYPE
+zera1 << zera1.DB_MAX_OUTPUT_PORT_TYPE
+conta1 << conta1.DB_MAX_OUTPUT_PORT_TYPE
+conta2 << conta2.DB_MAX_OUTPUT_PORT_TYPE
+carrega2 << carrega2.DB_MAX_OUTPUT_PORT_TYPE
+db_estado[0] << WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+db_estado[1] << WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+db_estado[2] << WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+
+

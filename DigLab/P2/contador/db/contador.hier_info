@@ -1,0 +1,30 @@
+|contador
+clock => cont20k[0].CLK
+clock => cont20k[1].CLK
+clock => cont2k[0].CLK
+clock => cont2k[1].CLK
+clock => cont2k[2].CLK
+clock => cont2k[3].CLK
+clock => cont200[0].CLK
+clock => cont200[1].CLK
+clock => cont200[2].CLK
+clock => cont200[3].CLK
+clock => cont200[4].CLK
+clock => cont200[5].CLK
+clock => cont200[6].CLK
+clock => cont20[0].CLK
+clock => cont20[1].CLK
+clock => cont20[2].CLK
+clock => cont20[3].CLK
+clock => cont20[4].CLK
+clock => cont20[5].CLK
+clock => cont20[6].CLK
+clock => cont20[7].CLK
+clock => cont20[8].CLK
+clock => cont20[9].CLK
+out20 <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+out200 <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+out2k <= LessThan2.DB_MAX_OUTPUT_PORT_TYPE
+out20k <= Equal3.DB_MAX_OUTPUT_PORT_TYPE
+
+

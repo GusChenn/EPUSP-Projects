@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/seq_e_temp/simulation/qsim
+Elogica_combinatoria
+Z1 w1592942778
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 CX9c^[CNfbzHb3XCH3hoa1
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 NZ_cKj>1HW_D7i1UeTO[31
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 6`GHcm:DR>=X_840X1FV;0
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 dbC[kT^o8P[ggjb1if:RT1
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 DPx6 altera 28 altera_primitives_components 0 22 PoC3B_7fao?IDTS[NR5Q62
+R0
+Z11 8logica_combinatoria.vho
+Z12 Flogica_combinatoria.vho
+l0
+L39
+VS:<VeO128zfdhAR^DCcLP3
+!s100 bm2F52hnIz^bG`gLBLkF[1
+Z13 OV;C;10.5b;63
+32
+Z14 !s110 1592942784
+!i10b 1
+Z15 !s108 1592942783.000000
+Z16 !s90 -work|work|logica_combinatoria.vho|
+Z17 !s107 logica_combinatoria.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 19 logica_combinatoria 0 22 S:<VeO128zfdhAR^DCcLP3
+l129
+L50
+V3@=S[AkN0jEjEQj<L:@QG1
+!s100 `b9<?fZzfXC`i[m]0E:<W1
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Elogica_combinatoria_vhd_vec_tst
+Z20 w1592942772
+R8
+R9
+R0
+Z21 8Waveform.vwf.vht
+Z22 FWaveform.vwf.vht
+l0
+L32
+VOnjRkKLQ;h1olhV;FX0UO2
+!s100 JnRASk^5?0EPznE;g>1?d0
+R13
+32
+R14
+!i10b 1
+Z23 !s108 1592942784.000000
+Z24 !s90 -work|work|Waveform.vwf.vht|
+Z25 !s107 Waveform.vwf.vht|
+!i113 1
+R18
+R19
+Alogica_combinatoria_arch
+R8
+R9
+Z26 DEx4 work 31 logica_combinatoria_vhd_vec_tst 0 22 OnjRkKLQ;h1olhV;FX0UO2
+l53
+L34
+Z27 VHAa:SgmYW:IQXMK_jgmVM3
+Z28 !s100 kVDWmc7YCz?iOJZ8_hoKk3
+R13
+32
+R14
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R18
+R19

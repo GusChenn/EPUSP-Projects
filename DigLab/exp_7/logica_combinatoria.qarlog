@@ -1,0 +1,23 @@
+Quartus Prime Archive log --	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/logica_combinatoria.qarlog
+
+Archive:	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/logica_combinatoria.qar
+Date:		Mon May 04 00:36:06 2020
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/Waveform.vwf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/logica_combinatoria.bdf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/logica_combinatoria.qpf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/logica_combinatoria.qsf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/logica_combinatoria.vhd
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Jun 23 14:11:57 2020
+Source archive file:	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/logica_combinatoria.qar
+Archive was extracted into	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/logica_combinatoria_restored/
+		 - successfully.

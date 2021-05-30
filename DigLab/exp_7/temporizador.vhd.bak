@@ -1,0 +1,46 @@
+library IEEE;
+		  
+use ieee.std_logic_1164.all;        
+use ieee.std_logic_unsigned.all;
+
+        
+entity temporizador is        
+	port(
+		Clock, CLR : in  std_logic;        
+		um_seg, cinco_seg, um_min : out std_logic
+	);
+end temporizador;
+
+architecture arch of temporizador is  
+	signal cont1: integer range 0 to 49999999;
+	signal cont2: integer range 0 to 4;
+	signal cont3: integer range 0 to 59;
+	begin
+		process (Clock, CLR) 
+		begin   
+			if rising_edge(Clock) then
+				if CLR = '1' then
+					cont1 <= 0;
+					cont2 <= 0;
+					cont3 <= 0;
+				elsif cont1 = 49999999 then
+					cont1 <= 0;
+					cont2 <= cont2 + 1;
+					cont3 <= cont3 + 1;
+					if cont2 = 4 then cont2 <= 0;
+					end if;
+					if cont3 = 59 then cont3 <= 0;
+					end if;
+				end if;
+				else cont1 <= cont1 + 1;
+			end if;
+			 
+		end process; 
+		
+	um_seg <= '1' when cont1 = 49999999 else '0';
+	
+	cinco_seg <= '1' when cont2 = 4 else '0';
+	
+	um_min <= '1' when cont3 = 59 else '0';
+	
+end arch;

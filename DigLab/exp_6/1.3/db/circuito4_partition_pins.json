@@ -1,0 +1,77 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pronto",
+					"strict" : false
+				},
+				{
+					"name" : "db_fim2",
+					"strict" : false
+				},
+				{
+					"name" : "fim1",
+					"strict" : false
+				},
+				{
+					"name" : "db_contagem1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "db_contagem1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "db_contagem1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "db_contagem1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[2]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[1]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[0]",
+					"strict" : false
+				},
+				{
+					"name" : "saida[3]",
+					"strict" : false
+				},
+				{
+					"name" : "saida[2]",
+					"strict" : false
+				},
+				{
+					"name" : "saida[1]",
+					"strict" : false
+				},
+				{
+					"name" : "saida[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "iniciar",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

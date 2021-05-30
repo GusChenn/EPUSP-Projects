@@ -1,0 +1,19 @@
+Quartus Prime Archive log --	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/alarme/alarme_completo.qarlog
+
+Archive:	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/alarme/alarme_completo.qar
+Date:		Thu Jul 23 20:51:57 2020
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/alarme/Waveform.vwf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/alarme/alarme.bdf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/alarme/alarme.qpf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/alarme/alarme.qsf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/alarme/codificador.bdf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/alarme/contador.vhd
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/alarme/seletor.vhd
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

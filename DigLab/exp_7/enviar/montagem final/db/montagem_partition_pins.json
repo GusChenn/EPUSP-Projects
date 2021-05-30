@@ -1,0 +1,69 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "VdA",
+					"strict" : false
+				},
+				{
+					"name" : "AmA",
+					"strict" : false
+				},
+				{
+					"name" : "VmA",
+					"strict" : false
+				},
+				{
+					"name" : "VdB",
+					"strict" : false
+				},
+				{
+					"name" : "AmB",
+					"strict" : false
+				},
+				{
+					"name" : "VmB",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name1",
+					"strict" : false
+				},
+				{
+					"name" : "trigger_1s",
+					"strict" : false
+				},
+				{
+					"name" : "trigger_5s",
+					"strict" : false
+				},
+				{
+					"name" : "trigger_1min",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "PvB",
+					"strict" : false
+				},
+				{
+					"name" : "noturno",
+					"strict" : false
+				},
+				{
+					"name" : "PvA",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

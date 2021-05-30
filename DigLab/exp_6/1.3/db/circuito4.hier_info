@@ -1,0 +1,78 @@
+|circuito4
+pronto <= maquina_estados:inst1.pronto
+clock => maquina_estados:inst1.clock
+clock => fluxo_dados:inst.clock
+reset => maquina_estados:inst1.reset
+iniciar => maquina_estados:inst1.iniciar
+db_fim2 <= fluxo_dados:inst.db_fim2
+fim1 <= s_fim1.DB_MAX_OUTPUT_PORT_TYPE
+db_contagem1[0] <= fluxo_dados:inst.db_contagem1[0]
+db_contagem1[1] <= fluxo_dados:inst.db_contagem1[1]
+db_contagem1[2] <= fluxo_dados:inst.db_contagem1[2]
+db_contagem1[3] <= fluxo_dados:inst.db_contagem1[3]
+db_estado[0] <= maquina_estados:inst1.db_estado[0]
+db_estado[1] <= maquina_estados:inst1.db_estado[1]
+db_estado[2] <= maquina_estados:inst1.db_estado[2]
+saida[0] <= fluxo_dados:inst.saida[0]
+saida[1] <= fluxo_dados:inst.saida[1]
+saida[2] <= fluxo_dados:inst.saida[2]
+saida[3] <= fluxo_dados:inst.saida[3]
+
+
+|circuito4|maquina_estados:inst1
+clock => Eatual~1.DATAIN
+reset => Eatual~3.DATAIN
+iniciar => Eprox.zeraconts.DATAB
+iniciar => Selector0.IN2
+condicao1 => Eprox.contacont2.DATAB
+condicao1 => Selector2.IN2
+fim => Eprox.final.DATAB
+fim => Selector1.IN2
+pronto <= pronto.DB_MAX_OUTPUT_PORT_TYPE
+zera1 <= zera1.DB_MAX_OUTPUT_PORT_TYPE
+conta1 <= conta1.DB_MAX_OUTPUT_PORT_TYPE
+conta2 <= conta2.DB_MAX_OUTPUT_PORT_TYPE
+carrega2 <= carrega2.DB_MAX_OUTPUT_PORT_TYPE
+db_estado[0] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+db_estado[1] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+db_estado[2] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito4|fluxo_dados:inst
+clock => IQ2[0].CLK
+clock => IQ2[1].CLK
+clock => IQ2[2].CLK
+clock => IQ2[3].CLK
+clock => IQ1[0].CLK
+clock => IQ1[1].CLK
+clock => IQ1[2].CLK
+clock => IQ1[3].CLK
+zera1 => IQ1[0].ACLR
+zera1 => IQ1[1].ACLR
+zera1 => IQ1[2].ACLR
+zera1 => IQ1[3].ACLR
+conta1 => IQ1[3].ENA
+conta1 => IQ1[2].ENA
+conta1 => IQ1[1].ENA
+conta1 => IQ1[0].ENA
+conta2 => IQ2.OUTPUTSELECT
+conta2 => IQ2.OUTPUTSELECT
+conta2 => IQ2.OUTPUTSELECT
+conta2 => IQ2.OUTPUTSELECT
+carrega2 => IQ2.OUTPUTSELECT
+carrega2 => IQ2.OUTPUTSELECT
+carrega2 => IQ2.OUTPUTSELECT
+carrega2 => IQ2.OUTPUTSELECT
+fim1 <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+condicao1 <= Equal2.DB_MAX_OUTPUT_PORT_TYPE
+saida[0] <= IQ2[0].DB_MAX_OUTPUT_PORT_TYPE
+saida[1] <= IQ2[1].DB_MAX_OUTPUT_PORT_TYPE
+saida[2] <= IQ2[2].DB_MAX_OUTPUT_PORT_TYPE
+saida[3] <= IQ2[3].DB_MAX_OUTPUT_PORT_TYPE
+db_fim2 <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+db_contagem1[0] <= IQ1[0].DB_MAX_OUTPUT_PORT_TYPE
+db_contagem1[1] <= IQ1[1].DB_MAX_OUTPUT_PORT_TYPE
+db_contagem1[2] <= IQ1[2].DB_MAX_OUTPUT_PORT_TYPE
+db_contagem1[3] <= IQ1[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,38 @@
+|fluxo_dados
+clock => IQ2[0].CLK
+clock => IQ2[1].CLK
+clock => IQ2[2].CLK
+clock => IQ2[3].CLK
+clock => IQ1[0].CLK
+clock => IQ1[1].CLK
+clock => IQ1[2].CLK
+clock => IQ1[3].CLK
+zera1 => IQ1[0].ACLR
+zera1 => IQ1[1].ACLR
+zera1 => IQ1[2].ACLR
+zera1 => IQ1[3].ACLR
+conta1 => IQ1[3].ENA
+conta1 => IQ1[2].ENA
+conta1 => IQ1[1].ENA
+conta1 => IQ1[0].ENA
+conta2 => IQ2.OUTPUTSELECT
+conta2 => IQ2.OUTPUTSELECT
+conta2 => IQ2.OUTPUTSELECT
+conta2 => IQ2.OUTPUTSELECT
+carrega2 => IQ2.OUTPUTSELECT
+carrega2 => IQ2.OUTPUTSELECT
+carrega2 => IQ2.OUTPUTSELECT
+carrega2 => IQ2.OUTPUTSELECT
+fim1 << Equal1.DB_MAX_OUTPUT_PORT_TYPE
+condicao1 << Equal2.DB_MAX_OUTPUT_PORT_TYPE
+saida[0] << IQ2[0].DB_MAX_OUTPUT_PORT_TYPE
+saida[1] << IQ2[1].DB_MAX_OUTPUT_PORT_TYPE
+saida[2] << IQ2[2].DB_MAX_OUTPUT_PORT_TYPE
+saida[3] << IQ2[3].DB_MAX_OUTPUT_PORT_TYPE
+db_fim2 << Equal0.DB_MAX_OUTPUT_PORT_TYPE
+db_contagem1[0] << IQ1[0].DB_MAX_OUTPUT_PORT_TYPE
+db_contagem1[1] << IQ1[1].DB_MAX_OUTPUT_PORT_TYPE
+db_contagem1[2] << IQ1[2].DB_MAX_OUTPUT_PORT_TYPE
+db_contagem1[3] << IQ1[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

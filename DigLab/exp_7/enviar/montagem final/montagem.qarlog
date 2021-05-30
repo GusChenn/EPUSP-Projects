@@ -1,0 +1,19 @@
+Quartus Prime Archive log --	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/enviar/montagem final/montagem.qarlog
+
+Archive:	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/enviar/montagem final/montagem.qar
+Date:		Tue Jun 23 20:13:00 2020
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/enviar/montagem final/Waveform.vwf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/enviar/montagem final/logica_combinatoria.vhd
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/enviar/montagem final/maquina.vhd
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/enviar/montagem final/montagem.bdf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/enviar/montagem final/montagem.qpf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/enviar/montagem final/montagem.qsf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/enviar/montagem final/temporizador.vhd
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

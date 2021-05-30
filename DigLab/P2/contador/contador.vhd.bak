@@ -1,0 +1,44 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity contador is
+    port (
+        clock : in std_logic;
+        out20, ou200, out2k, out20k : out std_logic
+    );
+end temporizador;
+
+architecture comportamental of temporizador is
+	 signal cont20: integer range 1 to 20
+	 signal cont200: integer range 1 to 200;
+	 signal cont2k: integer range 1 to 2000;
+	 signal cont20k: integer range 1 to 20000;
+begin
+
+    process (clock)
+    begin
+        if clock'event and clock = '1' then
+            if cont20 = 20 then cont20 <= 1
+            else cont20 <= cont20 + 1;
+				end if;
+				
+				if cont200 = 200 then cont200 <= 1;
+            else cont200 <= cont200 + 1;
+				end if;
+				
+				if cont2k = 2000 then cont2k <= 1;
+            else cont2k <= cont2k + 1;
+				end if;
+				
+				if cont20k = 20000 then cont20k <= 1;
+            else cont20k <= cont20k + 1;
+				end if;
+		  end if;
+	 end process;		
+
+    out20 <= NOT out20 when cont20 = 20 else out20;
+	 out200 <= NOT out200 when cont200 = 200 else out200;
+	 out2k <= NOT out2k when cont2k = 2000 else out2k;
+	 out20k <= NOT out20k when cont20k = 20000 else out20k;
+
+end comportamental;

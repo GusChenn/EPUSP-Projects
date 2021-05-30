@@ -1,0 +1,29 @@
+-Programado no windows.
+-VERSÃO DO COMPILADOR UTILIZADA: ------------------------------------------------------------------------------
+
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../src/gcc-8.2.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-8.2.0-3' --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-isl=/mingw --enable-libgomp --disable-libvtv --enable-nls --disable-build-format-warnings
+Thread model: win32
+gcc version 8.2.0 (MinGW.org GCC-8.2.0-3)
+----------------------------------------------------------------------------------------------------------------
+
+INSTRUÇÕES DE COMPILAÇÃO: ------------------------------------------------------------------------------------
+-Extrair todos os arquivos do .zip entregue todos para uma mesma pasta
+
+-navegar até a pasta na qual se encontram os arquivos "ep2.c" e "leitor.c" e executar os seguintes comandos:
+
+gcc -o ep2 ep.c
+
+gcc -o leitor leitor.c
+
+-Isso deve gerar os arquivos leitor.exe e ep2.exe
+
+-Primeiro, execute leitor.exe. Quando este pedir para digitar o nome do arquivo, digite "teste.txt". Quando pedir um seed, digite qualquer seed.
+
+-Depois, basta executar ep2.exe e escolher o item que deseja simular.
+
+-Obs: todas as subpastas de "resultados" assim como a própria pasta "resultados" são necessárias para o funcionamento do programa. Não deletar.
+------------------------------------------------------------------------------------------------------------------

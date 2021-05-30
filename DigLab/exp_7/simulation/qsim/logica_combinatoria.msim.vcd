@@ -1,0 +1,338 @@
+$comment
+	File created using the following command:
+		vcd file logica_combinatoria.msim.vcd -direction
+$end
+$date
+	Sun May 03 23:05:14 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module logica_combinatoria_vhd_vec_tst $end
+$var wire 1 ! AmA $end
+$var wire 1 " AmB $end
+$var wire 1 # Q0 $end
+$var wire 1 $ Q1 $end
+$var wire 1 % Q2 $end
+$var wire 1 & trigger_1min $end
+$var wire 1 ' trigger_1s $end
+$var wire 1 ( trigger_5s $end
+$var wire 1 ) VdA $end
+$var wire 1 * VdB $end
+$var wire 1 + VmA $end
+$var wire 1 , VmB $end
+
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var wire 1 0 devoe $end
+$var wire 1 1 devclrn $end
+$var wire 1 2 devpor $end
+$var wire 1 3 ww_devoe $end
+$var wire 1 4 ww_devclrn $end
+$var wire 1 5 ww_devpor $end
+$var wire 1 6 ww_VdA $end
+$var wire 1 7 ww_Q1 $end
+$var wire 1 8 ww_Q0 $end
+$var wire 1 9 ww_Q2 $end
+$var wire 1 : ww_AmA $end
+$var wire 1 ; ww_VmA $end
+$var wire 1 < ww_VdB $end
+$var wire 1 = ww_AmB $end
+$var wire 1 > ww_VmB $end
+$var wire 1 ? ww_trigger_1s $end
+$var wire 1 @ ww_trigger_5s $end
+$var wire 1 A ww_trigger_1min $end
+$var wire 1 B \VdA~output_o\ $end
+$var wire 1 C \AmA~output_o\ $end
+$var wire 1 D \VmA~output_o\ $end
+$var wire 1 E \VdB~output_o\ $end
+$var wire 1 F \AmB~output_o\ $end
+$var wire 1 G \VmB~output_o\ $end
+$var wire 1 H \trigger_1s~output_o\ $end
+$var wire 1 I \trigger_5s~output_o\ $end
+$var wire 1 J \trigger_1min~output_o\ $end
+$var wire 1 K \Q0~input_o\ $end
+$var wire 1 L \Q1~input_o\ $end
+$var wire 1 M \Q2~input_o\ $end
+$var wire 1 N \inst3~combout\ $end
+$var wire 1 O \inst5~combout\ $end
+$var wire 1 P \inst6~0_combout\ $end
+$var wire 1 Q \inst8~combout\ $end
+$var wire 1 R \inst12~combout\ $end
+$var wire 1 S \inst15~combout\ $end
+$var wire 1 T \inst4~combout\ $end
+$var wire 1 U \inst22~combout\ $end
+$var wire 1 V \inst19~combout\ $end
+$var wire 1 W \ALT_INV_inst8~combout\ $end
+$var wire 1 X \ALT_INV_Q0~input_o\ $end
+$var wire 1 Y \ALT_INV_Q2~input_o\ $end
+$var wire 1 Z \ALT_INV_Q1~input_o\ $end
+$var wire 1 [ \ALT_INV_inst3~combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+1&
+0'
+0(
+1)
+0*
+0+
+1,
+0-
+1.
+x/
+10
+11
+12
+13
+14
+15
+16
+07
+08
+09
+0:
+0;
+0<
+0=
+1>
+0?
+0@
+1A
+1B
+0C
+0D
+0E
+0F
+1G
+0H
+0I
+1J
+0K
+0L
+0M
+0N
+0O
+0P
+1Q
+0R
+1S
+0T
+0U
+1V
+0W
+1X
+1Y
+1Z
+1[
+$end
+#400000
+1#
+18
+1K
+0X
+1N
+1O
+1U
+0V
+0[
+0J
+1I
+1C
+0B
+0A
+1@
+1:
+06
+0&
+1(
+1!
+0)
+#800000
+0#
+1$
+08
+17
+1L
+0K
+1X
+0Z
+0O
+1P
+0Q
+0S
+0U
+1V
+1W
+1J
+0I
+0G
+1D
+0C
+1E
+1A
+0@
+0>
+1;
+0:
+1<
+1&
+0(
+0,
+1+
+0!
+1*
+#1200000
+1#
+18
+1K
+0X
+1Q
+1R
+1U
+0V
+0W
+0J
+1I
+1F
+0E
+0A
+1@
+1=
+0<
+0&
+1(
+1"
+0*
+#1600000
+0#
+0$
+1%
+08
+07
+19
+1M
+0L
+0K
+1X
+1Z
+0Y
+1T
+0P
+0R
+0U
+0I
+0F
+0D
+1H
+0@
+0=
+0;
+1?
+0(
+0"
+0+
+1'
+#2000000
+1#
+18
+1K
+0X
+1O
+1R
+1F
+1C
+1=
+1:
+1"
+1!
+#2400000
+0#
+1$
+08
+17
+1L
+0K
+1X
+0Z
+0T
+0O
+1P
+0R
+1S
+1V
+1J
+1G
+0F
+1D
+0C
+0H
+1A
+1>
+0=
+1;
+0:
+0?
+1&
+1,
+0"
+1+
+0!
+0'
+#2800000
+1#
+18
+1K
+0X
+0P
+0S
+0V
+0J
+0G
+0D
+0A
+0>
+0;
+0&
+0,
+0+
+#3200000
+0#
+0$
+0%
+08
+07
+09
+0M
+0L
+0K
+1X
+1Z
+1Y
+0N
+1S
+1V
+1[
+1J
+1G
+1B
+1A
+1>
+16
+1&
+1,
+1)
+#4000000

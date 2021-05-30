@@ -1,0 +1,19 @@
+Quartus Prime Archive log --	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/1.3/circuito4.qarlog
+
+Archive:	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/1.3/circuito4.qar
+Date:		Sun Apr 26 23:17:11 2020
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/1.3/Waveform.vwf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/1.3/circuito4.bdf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/1.3/circuito4.qpf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/1.3/circuito4.qsf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/1.3/circuito4.vhd
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/1.3/fluxo_dados.vhd
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_6/1.3/maquina_estados.vhd
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

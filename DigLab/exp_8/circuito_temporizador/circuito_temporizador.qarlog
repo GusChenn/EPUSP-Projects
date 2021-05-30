@@ -1,0 +1,19 @@
+Quartus Prime Archive log --	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_8/circuito_temporizador/circuito_temporizador.qarlog
+
+Archive:	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_8/circuito_temporizador/circuito_temporizador.qar
+Date:		Mon May 25 00:05:37 2020
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_8/circuito_temporizador/Waveform.vwf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_8/circuito_temporizador/circuito_temporizador.bdf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_8/circuito_temporizador/circuito_temporizador.qpf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_8/circuito_temporizador/circuito_temporizador.qsf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_8/circuito_temporizador/divisor_12.vhd
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_8/circuito_temporizador/divisor_50.vhd
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_8/circuito_temporizador/divisor_60.vhd
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

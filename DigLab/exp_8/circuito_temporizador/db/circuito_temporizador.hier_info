@@ -1,0 +1,80 @@
+|circuito_temporizador
+out_segundo <= divisor_50:inst.divisor50_out
+clock => divisor_50:inst.clock
+Reset => divisor_50:inst.zera
+Reset => divisor_60:inst1.zera
+Reset => divisor_60:inst2.zera
+Reset => divisor_12:inst3.zera
+Reset => inst22.IN0
+out_minuto <= divisor_60:inst1.divisor60_out
+out_hora <= divisor_60:inst2.divisor60_out
+out_12horas <= divisor_12:inst3.divisor12_out
+lampada <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+Liga => inst9.IN0
+Liga => inst12.IN1
+Desliga => inst10.IN0
+Desliga => inst11.IN0
+
+
+|circuito_temporizador|divisor_50:inst
+clock => conta_ciclo[0].CLK
+clock => conta_ciclo[1].CLK
+clock => conta_ciclo[2].CLK
+clock => conta_ciclo[3].CLK
+clock => conta_ciclo[4].CLK
+clock => conta_ciclo[5].CLK
+zera => conta_ciclo[0].ACLR
+zera => conta_ciclo[1].ACLR
+zera => conta_ciclo[2].ACLR
+zera => conta_ciclo[3].ACLR
+zera => conta_ciclo[4].ACLR
+zera => conta_ciclo[5].ACLR
+divisor50_out <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_temporizador|divisor_60:inst1
+clock => conta_ciclo[0].CLK
+clock => conta_ciclo[1].CLK
+clock => conta_ciclo[2].CLK
+clock => conta_ciclo[3].CLK
+clock => conta_ciclo[4].CLK
+clock => conta_ciclo[5].CLK
+zera => conta_ciclo[0].ACLR
+zera => conta_ciclo[1].ACLR
+zera => conta_ciclo[2].ACLR
+zera => conta_ciclo[3].ACLR
+zera => conta_ciclo[4].ACLR
+zera => conta_ciclo[5].ACLR
+flag => ~NO_FANOUT~
+divisor60_out <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_temporizador|divisor_60:inst2
+clock => conta_ciclo[0].CLK
+clock => conta_ciclo[1].CLK
+clock => conta_ciclo[2].CLK
+clock => conta_ciclo[3].CLK
+clock => conta_ciclo[4].CLK
+clock => conta_ciclo[5].CLK
+zera => conta_ciclo[0].ACLR
+zera => conta_ciclo[1].ACLR
+zera => conta_ciclo[2].ACLR
+zera => conta_ciclo[3].ACLR
+zera => conta_ciclo[4].ACLR
+zera => conta_ciclo[5].ACLR
+flag => ~NO_FANOUT~
+divisor60_out <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_temporizador|divisor_12:inst3
+clock => conta_ciclo[0].CLK
+clock => conta_ciclo[1].CLK
+clock => conta_ciclo[2].CLK
+clock => conta_ciclo[3].CLK
+zera => conta_ciclo[0].ACLR
+zera => conta_ciclo[1].ACLR
+zera => conta_ciclo[2].ACLR
+zera => conta_ciclo[3].ACLR
+divisor12_out <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

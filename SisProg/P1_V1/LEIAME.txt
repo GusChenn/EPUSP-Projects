@@ -1,0 +1,10 @@
+O gmail não permite que enviemos arquivos do tipo .exe por motivos de segurança.
+Assim, para executar o programa, você deve:
+
+1. Compilar o programa "loader-dumper-final.c". Para isso, navegar pelo CMD até esta pasta e executar:
+
+gcc -o loader-dumper loader-dumper-final.c
+
+2. Executar o arquivo "loader-dumper.exe" presente nessa pasta com o comando
+
+loader-dumper

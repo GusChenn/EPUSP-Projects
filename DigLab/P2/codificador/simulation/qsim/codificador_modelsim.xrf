@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/codificador/codificador.bdf
+source_file = 1, C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/codificador/Waveform.vwf
+source_file = 1, C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/codificador/db/codificador.cbx.xml
+design_name = codificador
+instance = comp, \y1~output , y1~output, codificador, 1
+instance = comp, \y0~output , y0~output, codificador, 1
+instance = comp, \enable_out~output , enable_out~output, codificador, 1
+instance = comp, \a2~input , a2~input, codificador, 1
+instance = comp, \a3~input , a3~input, codificador, 1
+instance = comp, \inst~0 , inst~0, codificador, 1
+instance = comp, \a1~input , a1~input, codificador, 1
+instance = comp, \a0~input , a0~input, codificador, 1

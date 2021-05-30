@@ -1,0 +1,126 @@
+|montagem
+VdA <= logica_combinatoria:inst.VdA
+reset => maquina123:inst1.reset
+clock => temporizador:inst2.clock
+noturno => maquina123:inst1.noturno
+PvA => maquina123:inst1.PvA
+PvB => maquina123:inst1.PvB
+AmA <= logica_combinatoria:inst.AmA
+VmA <= logica_combinatoria:inst.VmA
+VdB <= logica_combinatoria:inst.VdB
+AmB <= logica_combinatoria:inst.AmB
+VmB <= logica_combinatoria:inst.VmB
+pin_name1 <= temporizador:inst2.saida
+trigger_1s <= logica_combinatoria:inst.trigger_1s
+trigger_5s <= logica_combinatoria:inst.trigger_5s
+trigger_1min <= logica_combinatoria:inst.trigger_1min
+
+
+|montagem|logica_combinatoria:inst
+Q2 => SYNTHESIZED_WIRE_0.IN0
+Q2 => SYNTHESIZED_WIRE_3.IN0
+Q2 => SYNTHESIZED_WIRE_2.IN0
+Q2 => VdA.IN1
+Q2 => trigger_1s.IN0
+Q2 => SYNTHESIZED_WIRE_10.IN0
+Q2 => VdB.IN1
+Q2 => trigger_5s.IN0
+Q2 => SYNTHESIZED_WIRE_5.IN0
+Q1 => SYNTHESIZED_WIRE_0.IN1
+Q1 => SYNTHESIZED_WIRE_3.IN1
+Q1 => SYNTHESIZED_WIRE_2.IN1
+Q1 => SYNTHESIZED_WIRE_5.IN1
+Q1 => VdA.IN0
+Q1 => VmA.IN1
+Q1 => AmA.IN0
+Q1 => VdB.IN0
+Q1 => trigger_1s.IN1
+Q0 => AmB.IN1
+Q0 => trigger_5s.IN1
+Q0 => VdA.IN1
+Q0 => AmA.IN1
+Q0 => SYNTHESIZED_WIRE_10.IN1
+Q0 => VdB.IN1
+Q0 => trigger_1min.IN1
+Q0 => SYNTHESIZED_WIRE_2.IN1
+VdA <= VdA.DB_MAX_OUTPUT_PORT_TYPE
+AmA <= AmA.DB_MAX_OUTPUT_PORT_TYPE
+VmA <= VmA.DB_MAX_OUTPUT_PORT_TYPE
+VdB <= VdB.DB_MAX_OUTPUT_PORT_TYPE
+AmB <= AmB.DB_MAX_OUTPUT_PORT_TYPE
+VmB <= VmB.DB_MAX_OUTPUT_PORT_TYPE
+trigger_1s <= trigger_1s.DB_MAX_OUTPUT_PORT_TYPE
+trigger_5s <= trigger_5s.DB_MAX_OUTPUT_PORT_TYPE
+trigger_1min <= trigger_1min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|montagem|maquina123:inst1
+reset => Q.OUTPUTSELECT
+reset => Q.OUTPUTSELECT
+reset => Q.OUTPUTSELECT
+reset => reg_fstate.AmA_AmB_223.ACLR
+reset => reg_fstate.Apagado_244.ACLR
+reset => reg_fstate.VmA_VmB_265.ACLR
+reset => reg_fstate.VmA_AmB_286.ACLR
+reset => reg_fstate.AmA_VmB_307.ACLR
+reset => reg_fstate.VmA_VdB_328.ACLR
+reset => reg_fstate.VdA_Vmb_349.PRESET
+clock => fstate~1.DATAIN
+noturno => process_1.IN0
+noturno => process_1.IN1
+noturno => reg_fstate.Apagado.IN1
+noturno => Selector7.IN1
+noturno => process_1.IN1
+noturno => process_1.IN1
+noturno => process_1.IN1
+noturno => process_1.IN1
+noturno => Selector2.IN3
+PvA => process_1.IN0
+PvA => process_1.IN0
+PvA => process_1.IN1
+PvA => process_1.IN0
+PvA => process_1.IN0
+PvA => process_1.IN0
+PvB => process_1.IN1
+PvB => process_1.IN1
+PvB => process_1.IN1
+PvB => process_1.IN1
+PvB => process_1.IN1
+Q[0] <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|montagem|temporizador:inst2
+clock => flag.CLK
+clock => conta3[0].CLK
+clock => conta3[1].CLK
+clock => conta3[2].CLK
+clock => conta3[3].CLK
+clock => conta3[4].CLK
+clock => conta3[5].CLK
+clock => conta2[0].CLK
+clock => conta2[1].CLK
+clock => conta2[2].CLK
+clock => conta1[0].CLK
+clock => conta1[1].CLK
+clock => conta1[2].CLK
+clock => conta1[3].CLK
+clock => conta1[4].CLK
+clock => conta1[5].CLK
+zera => conta2.OUTPUTSELECT
+zera => conta2.OUTPUTSELECT
+zera => conta2.OUTPUTSELECT
+zera => conta3.OUTPUTSELECT
+zera => conta3.OUTPUTSELECT
+zera => conta3.OUTPUTSELECT
+zera => conta3.OUTPUTSELECT
+zera => conta3.OUTPUTSELECT
+zera => conta3.OUTPUTSELECT
+zera => flag.OUTPUTSELECT
+trigger_1s => flag.OUTPUTSELECT
+trigger_5s => flag.OUTPUTSELECT
+trigger_1min => flag.OUTPUTSELECT
+saida <= flag.DB_MAX_OUTPUT_PORT_TYPE
+
+

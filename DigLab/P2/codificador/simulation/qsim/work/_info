@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/codificador/simulation/qsim
+vcodificador
+!s110 1595546980
+!i10b 1
+!s100 @m[ZA0`KH>gN3?6`lS0QQ2
+I64SRHBPezdU<lc<@PdoNW1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1595546978
+8codificador.vo
+Fcodificador.vo
+L0 32
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1595546980.000000
+!s107 codificador.vo|
+!s90 -work|work|codificador.vo|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vcodificador_vlg_vec_tst
+!s110 1595546981
+!i10b 1
+!s100 _@_khS@aD8Vgc^QIi;nn52
+IOb5JbC>iHNIji[FK3UmV40
+R1
+R0
+w1595546976
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1595546981.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R3
+R4

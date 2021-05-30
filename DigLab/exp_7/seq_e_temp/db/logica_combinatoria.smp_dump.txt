@@ -1,0 +1,10 @@
+
+State Machine - |logica_combinatoria|fstate
+Name fstate.AmA_AmB fstate.Apagado fstate.VmA_VmB fstate.VmA_AmB fstate.AmA_VmB fstate.VmA_VdB fstate.VdA_Vmb 
+fstate.VdA_Vmb 0 0 0 0 0 0 0 
+fstate.VmA_VdB 0 0 0 0 0 1 1 
+fstate.AmA_VmB 0 0 0 0 1 0 1 
+fstate.VmA_AmB 0 0 0 1 0 0 1 
+fstate.VmA_VmB 0 0 1 0 0 0 1 
+fstate.Apagado 0 1 0 0 0 0 1 
+fstate.AmA_AmB 1 0 0 0 0 0 1 

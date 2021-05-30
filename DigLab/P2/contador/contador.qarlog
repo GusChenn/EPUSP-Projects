@@ -1,0 +1,16 @@
+Quartus Prime Archive log --	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/contador/contador.qarlog
+
+Archive:	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/contador/contador.qar
+Date:		Thu Jul 23 20:53:51 2020
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/contador/Waveform.vwf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/contador/contador.qpf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/contador/contador.qsf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/P2/contador/contador.vhd
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

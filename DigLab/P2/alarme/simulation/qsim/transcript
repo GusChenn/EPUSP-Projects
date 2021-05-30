@@ -1,0 +1,36 @@
+# do alarme.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:39 on Jan 30,2021
+# vcom -work work alarme.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package altera_lnsim_components
+# -- Loading package cyclonev_atom_pack
+# -- Loading package cyclonev_components
+# -- Compiling entity alarme
+# -- Compiling architecture structure of alarme
+# End time: 16:56:40 on Jan 30,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:40 on Jan 30,2021
+# vcom -work work Waveform.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alarme_vhd_vec_tst
+# -- Compiling architecture alarme_arch of alarme_vhd_vec_tst
+# ** Error: Waveform.vwf.vht(44): (vcom-1294) Declaration with designator "alarme" already exists in this region.
+# ** =====> Prior declaration of "alarme" is at Waveform.vwf.vht(41).
+# ** Error: Waveform.vwf.vht(61): ** Error: (vcom-1590) Bad expression in actual part of association element 'alarme'.
+# ** Error: Waveform.vwf.vht(61): (vcom-1454) Formal "alarme" of mode OUT cannot be associated with an expression.
+# ** Error: Waveform.vwf.vht(124): VHDL Compiler exiting
+# End time: 16:56:40 on Jan 30,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA/19.1/modelsim_ase/win32aloem/vcom failed.
+# Executing ONERROR command at macro ./alarme.do line 4

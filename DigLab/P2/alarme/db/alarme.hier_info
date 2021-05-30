@@ -1,0 +1,73 @@
+|alarme
+alarme <= seletor:inst2.Z
+ck => contador:inst1.clock
+a3 => codificador:inst.a3
+a2 => codificador:inst.a2
+a1 => codificador:inst.a1
+a0 => codificador:inst.a0
+
+
+|alarme|seletor:inst2
+A => Z.DATAB
+B => Z.DATAB
+C => Z.DATAB
+D => Z.DATAB
+S0 => process_0.IN0
+S0 => process_0.IN0
+S0 => process_0.IN0
+S1 => process_0.IN1
+S1 => process_0.IN1
+S1 => process_0.IN1
+ENABLE => process_0.IN1
+ENABLE => process_0.IN1
+ENABLE => process_0.IN1
+ENABLE => Z.OUTPUTSELECT
+Z <= Z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alarme|contador:inst1
+clock => cont20k[0].CLK
+clock => cont20k[1].CLK
+clock => cont2k[0].CLK
+clock => cont2k[1].CLK
+clock => cont2k[2].CLK
+clock => cont2k[3].CLK
+clock => cont200[0].CLK
+clock => cont200[1].CLK
+clock => cont200[2].CLK
+clock => cont200[3].CLK
+clock => cont200[4].CLK
+clock => cont200[5].CLK
+clock => cont200[6].CLK
+clock => cont20[0].CLK
+clock => cont20[1].CLK
+clock => cont20[2].CLK
+clock => cont20[3].CLK
+clock => cont20[4].CLK
+clock => cont20[5].CLK
+clock => cont20[6].CLK
+clock => cont20[7].CLK
+clock => cont20[8].CLK
+clock => cont20[9].CLK
+out20 <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+out200 <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+out2k <= LessThan2.DB_MAX_OUTPUT_PORT_TYPE
+out20k <= Equal3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alarme|codificador:inst
+y1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a2 => inst.IN0
+a2 => inst4.IN0
+a2 => inst1.IN1
+a3 => inst.IN1
+a3 => inst5.IN0
+a3 => inst2.IN1
+a3 => inst1.IN2
+y0 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+a1 => inst3.IN0
+a1 => inst1.IN3
+enable_out <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+a0 => inst1.IN0
+
+

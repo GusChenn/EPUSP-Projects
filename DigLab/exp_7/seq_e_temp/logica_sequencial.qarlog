@@ -1,0 +1,17 @@
+Quartus Prime Archive log --	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/seq_e_temp/logica_sequencial.qarlog
+
+Archive:	C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/seq_e_temp/logica_sequencial.qar
+Date:		Mon May 04 00:39:31 2020
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/seq_e_temp/Waveform.vwf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/seq_e_temp/logica_combinatoria.qpf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/seq_e_temp/logica_combinatoria.qsf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/seq_e_temp/logica_combinatoria.smf
+C:/Users/sasuk/Desktop/coisas academicas/Terceiro ano/Lab Dig/exp_7/seq_e_temp/logica_combinatoria.vhd
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

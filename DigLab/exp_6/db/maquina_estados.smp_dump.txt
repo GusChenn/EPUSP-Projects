@@ -1,0 +1,10 @@
+
+State Machine - |maquina_estados|Eatual
+Name Eatual.final Eatual.testafim Eatual.contacont1 Eatual.contacont2 Eatual.testacondicao1 Eatual.zeraconts Eatual.inicial 
+Eatual.inicial 0 0 0 0 0 0 0 
+Eatual.zeraconts 0 0 0 0 0 1 1 
+Eatual.testacondicao1 0 0 0 0 1 0 1 
+Eatual.contacont2 0 0 0 1 0 0 1 
+Eatual.contacont1 0 0 1 0 0 0 1 
+Eatual.testafim 0 1 0 0 0 0 1 
+Eatual.final 1 0 0 0 0 0 1 
